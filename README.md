@@ -15,6 +15,12 @@ int main()
  cout<<"3.horas a minutos" <<endl;
  cout<<"4.minutos a segundos" <<endl;
  cin>>opcion;
+ if (opcion==1){
+     
+     cout<<"ingresa las semanas:";
+     cin>>semanas;
+     dias=semanas*7;
+     cout<<"dias:"<<dias;
 
  else if(opcion==2){
      cout<<"ingresa dias: ";
