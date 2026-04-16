@@ -1,18 +1,21 @@
 # tiempo
-😊
-//librerarias 
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int dias, semanas, resto;
-    cout<<"ingresa los dias; ";
-    cin>>dias;
-    semanas=dias/7;
-    cout<<"semanas: "<<semanas;
-    
-    
-    
+ 
+ float dias,segundos,horas,minutos,semanas;
+ int opcion;
+ 
+ cout<<"escribe el numro de la  opcion de que necesitas:   "<<endl;
+ 
+ cout<<"1.semanas a dias"  <<endl;
+ cout<<"2.dias a horas" <<endl;
+ cout<<"3.horas a minutos" <<endl;
+ cout<<"4.minutos a segundos" <<endl;
+ cin>>opcion;
 
-    return 0;
+
+   return 0;
 }
