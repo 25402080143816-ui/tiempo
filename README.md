@@ -16,6 +16,12 @@ int main()
  cout<<"4.minutos a segundos" <<endl;
  cin>>opcion;
 
+ else if(opcion==2){
+     cout<<"ingresa dias: ";
+     cin>>dias;
+     horas=dias*24;
+     cout<<"resultado de horas es :  "<<horas;
+     
 
    return 0;
 }
