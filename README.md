@@ -17,5 +17,20 @@ int main()
  cin>>opcion;
 
 
-   return 0;
+   
 }
+}
+else if(opcion==4){
+    cout<<"ingresa los minutos:";
+    cin>>minutos;
+    segundos=minutos*60;
+    cout<<"equivale a:"<<segundos;
+}
+else{
+    cout<<"opcion no valida";
+}
+    return 0;
+}
+
+
+
