@@ -15,6 +15,12 @@ int main()
  cout<<"3.horas a minutos" <<endl;
  cout<<"4.minutos a segundos" <<endl;
  cin>>opcion;
+}
+else if(opcion==3){
+    cout<<"ingresa la cantidad de horas:";
+    cin>>horas;
+    minutos=horas*60;
+    cout<<"los minutos son :"<<minutos;
 
 
    return 0;
