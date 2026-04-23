@@ -1,7 +1,6 @@
 
      
-#includ
-e <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -54,24 +53,5 @@ else{
     cout<<"opcion no valida";
 }
     return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   return 0;
+}   return 0;
 }
